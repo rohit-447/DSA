@@ -2,18 +2,22 @@
 
 #variable and list
 list_1=[]               #variable to store value
-n=0                     ##take the input of upto which the list is created
-
+n=0                     #take the input of upto which the list is created
+num=0                   #to storeprime no tempory
 #input from user
 n=int(input("Enter the no. upto which prime no. u want :"))
 
 #loop to check prime no.
-for num in range(0,n+1):
-    if num>1:
-        for i in range (2,num):
-            if num%i==0:
+for num in range(0, n+1):
+    if num > 1:
+        #for no. greater than 1
+
+        for i in range (2, num):
+            if num % i == 0:
                 break
+
         else:
+          #adding prime  no to list
           list_1.append(num)
 
 print(list_1)

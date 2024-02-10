@@ -16,9 +16,14 @@ print(a)
 '''Method 2 by comparing each element'''
 
 for i in range (0,len(array1)):
+#it runs a loop to comapring the first value
     for j in range(i+1,len(array1)):
+       #it runs a loop to compare the second value
+
        if array1[i]>array1[j]:
-           tem=array1[i]
-           array1[i]=array1[j]
-           array1[j]=tem
+           #compares two value
+           tem=array1[i]            #temp stores the greater value
+           array1[i]=array1[j]      #replacing the short value first index
+           array1[j]=tem            #replace the second value to temp
+           
 print(array1)
