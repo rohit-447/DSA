@@ -21,4 +21,3 @@ t2=person()
 t2.setdata('shyam',25)
 print(t1.show(t1.name,t1.age))
 print(t2.show(t2.name,t2.age))
-    
