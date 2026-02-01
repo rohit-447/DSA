@@ -78,6 +78,7 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 .anaconda_projects/
+anaconda_projects/
 
 # IPython
 profile_default/
