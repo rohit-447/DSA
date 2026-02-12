@@ -79,6 +79,7 @@ target/
 .ipynb_checkpoints
 .anaconda_projects/
 anaconda_projects/
+test.ipynb
 
 # IPython
 profile_default/
